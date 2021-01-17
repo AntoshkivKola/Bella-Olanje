@@ -1,0 +1,77 @@
+.start-creen {
+  background-color: #fafafa;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+
+.start-creen-conten{
+  display: flex;
+  align-self: center;
+  justify-self: center;
+}
+
+.start-creen-image-wrapper {
+  margin-top: -60px;
+}
+.start-creen-image {
+  max-width: 320px;
+  max-height: 500px;
+  object-fit: cover;
+}
+.btns {
+  align-self: center;
+  justify-content: space-evenly;
+  align-items: baseline;
+  margin: 0 auto;
+ 
+}
+.bottom-start-screen {
+  margin-bottom: 200px;
+}
+
+@media screen and (min-width: 768px) {
+  .start-creen {
+    background: url("./../images/bg-start-screen.png") no-repeat ;
+    background-size: cover;
+  }
+  .main-heading,
+  .text-content,
+  .btn {
+    color: white;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .start-creen-headig{
+    max-width: 730px;
+    align-self: center;
+  }
+  .btns {
+    min-width: 650px;
+    max-width: 700px;
+  }
+  .btn {
+    display: inline-block;
+    border-color: white;
+  }
+  .btn:hover {
+    border-color: var(--btn-color);
+    background-color: var(--btn-color);
+  }
+  .bottom-start-screen {
+    margin-bottom: 120px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .bottom-start-screen {
+    margin-bottom: 100px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .bottom-start-screen {
+    margin-bottom: 150px;
+  }
+}
