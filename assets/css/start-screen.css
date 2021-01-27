@@ -35,8 +35,8 @@
     background: url("./../images/bg-start-screen.png") no-repeat ;
     background-size: cover;
   }
-  .main-heading,
-  .text-content,
+  .start-creen .main-heading,
+  .start-creen .text-content,
   .btn {
     color: white;
     margin-left: 0;

@@ -1,0 +1,44 @@
+.download{
+  background-color: #252b42;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+
+ 
+}
+.download > .container{
+  height: 100%;
+}
+.download *{
+  color: white;
+}
+.download-content{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
+}
+.download .btn{
+  border-radius: 10px;
+  border-color: white;
+  padding: 30px 20px;
+}
+
+.download .text-content{
+  margin-bottom: 50px;
+}
+
+.download .btn:hover{
+ 
+  border-color: var(--btn-color);
+}
+
+
+@media screen and (min-width: 768px) {
+  .download {
+    background: url("./../images/bg-download.png") no-repeat ;
+    background-size: cover;
+  }
+ 
+}

@@ -1,0 +1,108 @@
+.create {
+  margin-bottom: 30px;
+}
+.create-img-wrapper {
+  max-width: 320px;
+  max-height: 550px;
+  margin-top: -35px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.create-img {
+  max-width: 100%;
+  max-width: 100%;
+  object-fit: cover;
+  size: cover;
+}
+.instructions-text {
+  max-width: 220px;
+}
+.instructions-sub-heading {
+  color: #fa4a0c;
+}
+.instructions .main-heading {
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 2.8rem;
+}
+@media screen and (min-width: 576px) {
+  .instructions-text {
+    max-width: 300px;
+  }
+  .create-img-wrapper {
+    max-width: 400px;
+    max-height: 650px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .instructions-sub-heading,
+  .instructions .text-content,
+  .instructions .main-heading {
+    text-align: left;
+    padding: 10px 15px;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .explore .text-conteiner {
+    padding-left: 60px;
+    padding-right: 0;
+  }
+  .instructions .main-heading {
+    font-size: 2.2rem;
+  }
+  .create-content {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+  .instructions-text {
+    max-width: 300px;
+  }
+  .instructions .top-midle{
+    margin-top:5px;
+  }
+  .instructions .text-conteiner {
+    margin-top: 110px;
+  }
+  .create-img-wrapper {
+    max-width: 400px;
+    max-height: 650px;
+    margin-top: -120px;
+  }
+
+}
+
+@media screen and (min-width: 992px) {
+  .create-img-wrapper {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .explore .text-conteiner {
+   padding-left: 100px;
+  }
+  .instructions .text-content{
+    max-width: 550px;
+  }
+  .instructions .main-heading {
+    max-width: 570px;
+  }
+  .create .create-img-wrapper{
+    margin-right: 40px;
+  }
+  .explore .create-img-wrapper{
+   margin-left: 40px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .create .create-img-wrapper{
+    margin-right: 80px;
+  }
+  .explore .text-conteiner {
+   padding-left: 160px;
+  }
+}
+@media screen and (min-width: 1400px){
+  .explore .text-conteiner {
+    padding-left: 250px;
+   }
+}
