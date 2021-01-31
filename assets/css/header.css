@@ -1,8 +1,5 @@
 .wrapper-logo-img {
-  min-width: 100px;
-  min-height: 50px;
-  max-width: 245px;
-  max-height: 100px;
+  padding: 10px;
 }
 .logo-img {
   margin-left: 4px;
@@ -49,14 +46,6 @@
    max-height: 85px;
    min-height: 85px;
   }
- 
-  .wrapper-logo-img {
-    min-width: 150px;
-    min-height: 85px;
-    max-width: 245px;
-    max-height: 100px;
-  }
-
 }
 
 @media screen and (min-width: 992px) {
@@ -64,10 +53,8 @@
     max-height: 100px;
     min-height: 100px;
    }
-  .wrapper-logo-img {
-    min-width: 200px;
-    min-height: 100px;
-    max-width: 245px;
-    max-height: 100px;
+
+  .logo-img{
+    width: 180px;
   }
 }

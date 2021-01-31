@@ -33,6 +33,10 @@
 @media screen and (min-width: 992px) {
   .footer .wrapper-logo-img{
     display: flex;
+    size: 300rem;
+  }
+  .footer .logo-img{
+    
   }
   .copywright,
   .icon-wrapper{
