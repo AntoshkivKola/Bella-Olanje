@@ -22,7 +22,7 @@
 .download .btn{
   border-radius: 10px;
   border-color: white;
-  padding: 30px 20px;
+  padding: 30px 18px;
 }
 
 .download .text-content{
@@ -35,7 +35,7 @@
 }
 
 .download .btn + .btn{
-  margin-left: 20px;
+  margin-left: 10px;
 }
 @media screen and (min-width: 576px) {
   .download .btn{
